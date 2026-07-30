@@ -1,0 +1,25 @@
+# Minimal deps to get the backend running without heavy ML packages.
+# Use this when network is slow or you want a fast first boot.
+# Usage: pip install -r requirements-minimal.txt
+
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+websockets>=13.0
+pydantic>=2.9.0
+pydantic-settings>=2.5.0
+sqlalchemy[asyncio]>=2.0.35
+aiosqlite>=0.20.0
+alembic>=1.14.0
+redis[hiredis]>=5.2.0
+arq>=0.26.0
+httpx>=0.28.0
+python-multipart>=0.0.12
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+numpy>=1.26.0
+anthropic>=0.40.0
+openai>=1.55.0
+opentelemetry-api>=1.28.0
+opentelemetry-sdk>=1.28.0
+opentelemetry-instrumentation-fastapi>=0.49b0
+sentry-sdk[fastapi]>=2.18.0
