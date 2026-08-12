@@ -27,7 +27,7 @@
     "electron": "35.7.5",
     "electron-builder": "^26.0.0",
     "electron-vite": "^5.0.0",
-    "postcss": "^8.4.0",
+    "postcss": "^8.5.26",
     "react": "^18.3.0",
     "react-dom": "^18.3.0",
     "react-router-dom": "^6.28.0",
